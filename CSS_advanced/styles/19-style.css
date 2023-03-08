@@ -484,7 +484,7 @@ html {
   .col-1-2 {
     width: 50%;
     float: left;
-    padding: calc(var(--root-element) / 2);
+    padding: 0.5rem;
 }
   .footer-copyright {
     margin: 0;
