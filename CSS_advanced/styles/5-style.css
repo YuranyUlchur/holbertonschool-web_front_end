@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 :root {
     --color-primary: #d73953;
@@ -37,8 +38,4 @@ html {
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
-  }
-  html {
-    font-size: 62.5%;
-  }
-  
+  } 
