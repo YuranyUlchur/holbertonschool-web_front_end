@@ -504,7 +504,7 @@ html {
   .footer ul{
     text-align: right;
 }
-[data-section-theme="dark"] {
+  [data-section-theme="dark"] {
     --text-color: var(--color-black);
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
@@ -517,7 +517,7 @@ html {
     display: block;
   }
   
-  .social-link svg {
+  .social-link > svg {
     fill: var(--text-color);
   }
   .card-services .card-title {
