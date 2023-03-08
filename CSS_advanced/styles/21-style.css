@@ -467,14 +467,22 @@ html {
     padding: 0.5rem 1rem;
 }
 
- .nav .nav-link:hover {
+  .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
+
   ul.row{
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
+  .row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
   .col-1-3{
     width: 33.33%;
     float: left;
@@ -486,6 +494,7 @@ html {
     float: left;
     padding: 0.5rem;
 }
+
   .footer-copyright{
     margin: 0;
     font-size: var(--font-size-small);
@@ -494,10 +503,4 @@ html {
 
   .footer ul{
     text-align: right;
-}
-
-  .row::after{
-    content: "";
-    display: table;
-    clear: both;
 }
