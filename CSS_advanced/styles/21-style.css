@@ -430,9 +430,8 @@ html {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
-    margin: var(--section-tagline-margin);
+    margin: var(--section-tagline-margin)
 }
-
   .container{
     width: 960px;
     margin-right: auto;
@@ -468,32 +467,35 @@ html {
     padding: 0.5rem 1rem;
 }
 
-  .nav .nav-link:hover {
+ .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
-  ul.row {
+  ul.row{
     margin: 0;
     padding: 0;
     list-style: none;
 }
-  .col-1-3 {
+  .col-1-3{
     width: 33.33%;
     float: left;
     padding: 0.5rem;
 }
-  .col-1-2 {
+
+  .col-1-2{
     width: 50%;
     float: left;
     padding: 0.5rem;
 }
-  .footer-copyright {
+  .footer-copyright{
     margin: 0;
     font-size: var(--font-size-small);
     color: var(--text-color);
 }
-  .footer ul {
+
+  .footer ul{
     text-align: right;
 }
+
   .row::after{
     content: "";
     display: table;
