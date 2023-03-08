@@ -505,9 +505,9 @@ html {
     text-align: right;
 }
   [data-section-theme="dark"] {
+    --text-color: var(--color-black);
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
-    background: var(--color-black);
 }
   .footer-address {
     color: var(--text-color);
