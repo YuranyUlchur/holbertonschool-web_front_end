@@ -357,10 +357,11 @@ html {
     --nav-item-font-family: font-family-title;
     --nav-item-font-weight: font-weight-bold;
     --nav-item-font-size: font-size-medium;
-    --nav-item-letter-spacing: calc(4% / var(--root-em));
+    --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 0 calc(3 * var(--root-em)) 0;
-    --nav-item-link-hover: color-primary;
+    --nav-item-margin: 0 0 calc(var(--root-element) * 3) 0;
+    --nav-item-link-hover: color-primary;  
+    
 }
 
   body {
@@ -451,8 +452,11 @@ html {
   nav {
     margin: 0;
     padding: 0;
-    list-style: none;
     text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
   }
   
   nav .nav-item {
@@ -466,7 +470,7 @@ html {
   
   nav .nav-link {
     display: block;
-    padding: calc(var(--root-em) / 2) var(--root-em);
+    padding: calc(var(--root-element) / 2) var(--root-element);
   }
   
   nav .nav-link:hover {
